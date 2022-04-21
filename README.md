@@ -1,4 +1,2 @@
-# python-lab
-This Repository contains 15 exercies coding
-solutions of python lab jntuk
---BY SATYA AJAY
+# PYTHON-LAB
+THIS REPOSITORY CONTAINS 15 EXERCIES CODING\nSOLUTIONS OF PYTHON LAB JNTUK\n--BY SATYA AJAY'
