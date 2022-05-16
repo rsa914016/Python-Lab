@@ -5,9 +5,18 @@ def Ex02a():
 
 
 def Ex02b():
-    c_temp = -40.0
-    f_temp = (9 / 5) * c_temp + 32
-    print(f_temp)
+    print('----MENU----\n1) C to F\n2) F to C')
+    ch = int(input('Enter Your Choice : '))
+    if ch == 1:
+        c_temp = int(input('Enter Celsius Temp : '))
+        f_temp = (9 / 5) * c_temp + 32
+        print(f_temp)
+    elif ch == 2:
+        f_temp = int(input('Enter Fahrenheit Temp : '))
+        c_temp = (5 * f_temp - 160) / 9
+        print(c_temp)
+    else:
+        print('Choose from 1-2')
 
 
 def Ex02c():
@@ -22,4 +31,4 @@ def Fibonacci(n):
 
 
 if __name__ == '__main__':
-    Ex02c()
+    Ex02b()
