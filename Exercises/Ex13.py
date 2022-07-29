@@ -1,11 +1,5 @@
-def isEven(even):
-    if even % 2 == 0:
-        return True
-    return False
-
-
-def isOdd(odd):
-    if odd % 2 == 1:
+def isEvenLst(lst):
+    if all(even % 2 == 0 for even in lst):
         return True
     return False
 
